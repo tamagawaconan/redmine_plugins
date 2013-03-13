@@ -1,0 +1,16 @@
+<h2><%=h l(:label_foo) %>#<%= @foo.id %></h2>
+
+<div class="issue">      
+
+  <div class="subject">
+    <h3><%= @foo.subject %></h3>
+  </div>
+
+<% unless @foo.description.blank? %>
+  <p><strong><%=l(:field_description)%></strong></p>
+  <div class="wiki">
+    <%= textilizable @foo.description %>
+  </div>
+<% end %>
+
+</div>

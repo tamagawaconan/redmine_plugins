@@ -1,0 +1,8 @@
+ja:
+  label_hello: ハロー
+  project_module_hello: ハロープラグイン
+  permission_view_foos: サンプルデータの閲覧
+  permission_manage_foos: サンプルデータの管理
+
+  label_foos_new: 新しいサンプルデータ
+  label_foo: サンプルデータ

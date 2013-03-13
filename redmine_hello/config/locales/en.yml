@@ -1,0 +1,8 @@
+en:
+  label_standard: Hello
+  project_module_hello: Hello plugin
+  permission_view_foos: View sample data
+  permission_manage_foos: Manage sample data
+
+  label_foos_new: New sample data
+  label_foo: Sample data

@@ -1,0 +1,8 @@
+<%= labelled_form_for :foo, @foo,
+                             {:url => {:controller => 'foos', :action => 'edit', :id => @foo.id},
+                  :html => {:multipart => true, :id => 'foo-form'}} do |f| %>
+    <%= render :partial => 'foos/form', :locals => {:form => f} %>
+    <%= f.submit l(:button_edit) %>
+    <%= preview_link( {:action => 'preview', :project_id => @project}, 'foo-form' ) %>
+<% end %>
+<div id="preview" class="wiki"></div>
